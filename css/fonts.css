@@ -1,0 +1,156 @@
+
+/* roboto-italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v27-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v27-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v27-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v27-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v27-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+
+
+/* Raleway */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('../fonts/Raleway-Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local(''),
+       url('../fonts/Raleway-ExtraLight.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/Raleway-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/Raleway-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/Raleway-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/Raleway-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/Raleway-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/Raleway-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/Raleway-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* Bitter */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  src: local(''),
+       url('../fonts/Bitter-VariableFont_wght.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: italic;
+  src: local(''),
+       url('../fonts/Bitter-Italic-VariableFont_wght.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* Noto Sans */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  src: local(''),
+       url('../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  src: local(''),
+       url('../fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+body {
+  font-family: 'Noto Sans', serif;
+}
+
+h1, h2, h3, h4, h5, h6, summary, .article-duration, .archive-item-link, .footer, .article-meta {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.article-summary, .intro-content{
+  font-family: 'Roboto';
+}
+
+
+header {
+  font-family: 'Bitter';
+}
+
+footer {
+  font-family: 'Raleway';
+}

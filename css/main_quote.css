@@ -1,0 +1,160 @@
+html,
+body{
+   margin:0;
+   padding:0;
+ }
+ 
+ h1, h2, h3, h4 {
+   color: #F0426B;
+ }
+ 
+summary {
+   color: #B76D68;
+   font-size: 22px;
+ }
+ 
+a:link {
+  color: #059E75;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #06D6A0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F0426B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F68EA6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ 
+ h1 {
+   text-align:center; 
+   font-size:35px; 
+   padding: 10px;
+     padding: 0px 20px;
+}
+
+summary::-webkit-details-marker {
+   display: none
+}
+
+summary:after {
+   content: "+";
+   color: #43AA8B;
+   float: left;
+   font-size: 1em;
+   font-weight: bold;
+   margin: 0 5px 0 0;
+   padding: 0;
+   text-align: center;
+   width: 20px;
+}
+
+details[open] summary:after {
+   content: "-";
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  background-color: #5A4FCF;
+}
+
+.intro {
+  text-align: left;
+}
+
+
+
+.intro h1{
+  display: inline-block;
+  float: left;
+  padding: 10px 8px;
+  font-family: 'Raleway';
+  font-size: 32px;
+  color: white;
+  font-weight: 200;
+
+}
+
+.intro span{
+  font-weight: 800;
+}
+
+.navigation {
+  text-align: right;
+  font-family: 'Bitter';
+  font-size: 16px;
+  list-style: none;
+}
+
+.navigation li{
+  display: inline-block;
+  padding: 40px 8px;
+  color: white;
+}
+
+.navigation li a{
+  color: white;
+  font-family: 'Bitter';
+  font-size: 16px;
+
+}
+
+.quote-container {
+  background-color: #F7E733;
+}
+
+footer{
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #5A4FCF;
+    margin: 2rem 0 0rem 0;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0rem 2rem -3rem;
+}
+
+.socials li{
+    margin: 0 0px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
